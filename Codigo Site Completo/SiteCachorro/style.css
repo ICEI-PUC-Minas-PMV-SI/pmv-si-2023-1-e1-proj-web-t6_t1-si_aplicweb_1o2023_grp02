@@ -1,0 +1,93 @@
+.fundo {
+    background-image: url(download.png)
+    
+}
+.fundo{
+    height: 600px;
+    width: 100%;
+   display: inline-flex
+}
+
+.texto{
+    width: auto;
+    height: 300px;
+    border-radius: 5px;
+    background-color: black;
+    margin-left: 25%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 10px;
+    color: azure;
+    
+}
+
+.container{
+    display: flex;
+}
+
+.b1{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-left: 60%;
+    border-radius: 5%;
+    
+}
+
+.b2{
+    display: flex;
+    justify-content: end;
+    margin-left: 10px;
+    align-items: center;
+}
+
+
+
+#carouselExampleIndicators{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 50px;
+
+}
+
+#Card{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 50px;
+}
+
+.serv{
+    text-align: center;
+    font-size: 40px;
+}
+
+.head{
+    font-size: 40px;
+    border-bottom: 1px solid; 
+    margin-left: 10%;
+    margin-right:10%;
+}
+
+#txt{
+    text-align: center;
+    font-size: 50px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+#k{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#nav{
+    padding-bottom: 45px;
+}
+
+footer{
+    text-align: center;
+    font-size: 25px;
+    padding: 50px;
+}
+
