@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quero Encontrar um cao</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="backend.js">  </script>
+</head>
+<body>
+    
+    <div id="nav">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container justify-content-center">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse flex-grow-0" id="navbarNavDropdown">
+                <ul class="navbar-nav text-center">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../SiteCachorro/index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Quero Encontrar um cão</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="../Acompanhamento de adoções/Acompanhamento de adoções.html">Acompanhar Minha Adoção</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Saiba Mais
+                    </a>
+                    <ul class="dropdown-menu">
+                        
+                      <li><a class="dropdown-item" href="#">Depoimentos</a></li>
+                      <li><a class="dropdown-item" href="#">Ongs Parceiras</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+
+    <div class="row row-cols-1 row-cols-md-2 g-4" id="Card">
+        <div class="col">
+          <div class="card">
+            <img src="../SiteCachorro/c7.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" id="name"></h5>
+              <p class="card-text" id="desc"></p>
+              <input type="button" value=Adote-me!>
+
+              <script>
+              let nome = `${caes.dados[0].nome}`
+              document.getElementById('name').innerHTML = nome
+
+              let desc = `${caes.dados[0].desc}`
+              document.getElementById('desc').innerHTML = desc
+              </script>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../SiteCachorro/c8.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" id="name1"></h5>
+              <p class="card-text" id="desc1"></p>
+              <input type="button" value=Adote-me!>
+            </div>
+          </div>
+        </div>
+
+        <script>
+          let nome1 = `${caes.dados[1].nome}`
+          document.getElementById('name1').innerHTML = nome1
+
+          let desc1 = `${caes.dados[1].desc}`
+          document.getElementById('desc1').innerHTML = desc1
+          </script>
+
+
+        <div class="col">
+          <div class="card">
+            <img src="../SiteCachorro/c9.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" id="name2"></h5>
+              <p class="card-text" id="desc2"></p>
+              <input type="button" value=Adote-me!>
+            </div>
+          </div>
+        </div>
+
+        <script>
+          let nome2 = `${caes.dados[2].nome}`
+          document.getElementById('name2').innerHTML = nome2
+
+          let desc2 = `${caes.dados[2].desc}`
+          document.getElementById('desc2').innerHTML = desc2
+          </script>
+
+
+        <div class="col">
+          <div class="card">
+            <img src="../SiteCachorro/c10.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" id="name3"></h5>
+              <p class="card-text" id="desc3"> </p>
+              <input type="button" value=Adote-me!>
+            </div>
+          </div>
+        </div>
+
+        <script>
+          let nome3 = `${caes.dados[3].nome}`
+          document.getElementById('name3').innerHTML = nome3
+
+          let desc3 = `${caes.dados[3].desc}`
+          document.getElementById('desc3').innerHTML = desc3
+          </script>
+
+
+      </div>
+</div>
+
+<div class="row row-cols-1 row-cols-md-2 g-4" id="Card">
+    <div class="col">
+      <div class="card">
+        <img src="../Aba Cães/c11.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" id="name4"></h5>
+          <p class="card-text" id="desc4"></p>
+          <input type="button" value=Adote-me!>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let nome4 = `${caes.dados[4].nome}`
+      document.getElementById('name4').innerHTML = nome4
+
+      let desc4 = `${caes.dados[4].desc}`
+      document.getElementById('desc4').innerHTML = desc4
+      </script>
+
+
+    <div class="col">
+      <div class="card">
+        <img src="../Aba Cães/c12.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" id="name5"></h5>
+          <p class="card-text" id="desc5"></p>
+          <input type="button" value=Adote-me!>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let nome5 = `${caes.dados[5].nome}`
+      document.getElementById('name5').innerHTML = nome5
+
+      let desc5 = `${caes.dados[5].desc}`
+      document.getElementById('desc5').innerHTML = desc5
+      </script>
+
+
+    <div class="col">
+      <div class="card">
+        <img src="../Aba Cães/c13.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" id="name6"></h5>
+          <p class="card-text" id="desc6"></p>
+          <input type="button" value=Adote-me!>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let nome6 = `${caes.dados[6].nome}`
+      document.getElementById('name6').innerHTML = nome6
+
+      let desc6 = `${caes.dados[6].desc}`
+      document.getElementById('desc6').innerHTML = desc6
+      </script>
+
+
+    <div class="col">
+      <div class="card">
+        <img src="../Aba Cães/c14.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" id="name7"></h5>
+          <p class="card-text" id="desc7"> </p>
+          <input type="button" value=Adote-me!>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let nome7 = `${caes.dados[7].nome}`
+      document.getElementById('name7').innerHTML = nome7
+
+      let desc7 = `${caes.dados[7].desc}`
+      document.getElementById('desc7').innerHTML = desc7
+      </script>
+
+
+  </div>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+</body>
+</html>
