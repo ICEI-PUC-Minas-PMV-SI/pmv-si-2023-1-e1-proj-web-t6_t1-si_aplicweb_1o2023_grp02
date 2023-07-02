@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ html, body{
+    height: 100%;
+ }
+
+ body{
+    background-color: aqua;
+ }
+
+.card .user{
+    width: 100px;
+}
+
+.card{
+     padding: 5px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0 5rem 0 ;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    grid-gap: 40px;
+    
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 40px;
+   
+     
+}
+
+ .star{
+    width: 20px;
+ }
