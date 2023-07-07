@@ -3,7 +3,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+A metodologia do trabalho é atacar a falta de compatibilidade entre os cães e seus futuros donos, ondem podem conhecer seus futuros cães e verem se estão de acordo com sua disponibilidade e responsabilidade. Utlizamos o VSCode como editor de codigos e linguagens de progamação como o JavaScript para fazer-mos o site funcionar, utilizamos HTML e CSS na parte do desing e estrutura estatica do mesmo. A nossa gestão de times foi feita de forma organizada e sequêncial, onde nos encotravamos em reuniões ao vivo semanalmente pelo app Teams e dividíamos as respectivas tarefas e durante a semana entregavamos as respectivas partes solicitadas pelos participantes
 
 ## Controle de Versão
 
