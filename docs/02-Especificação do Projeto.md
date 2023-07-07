@@ -8,7 +8,17 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+1. Julia Almeida tem 30 anos, é casada com o João Marques, formada em engenharia porém esta atualmente atua como do lar, fica o dia inteiro em casa enquanto seu marido trabalha das 7 as 17, ela e seu marido querem muito um cãozinho que fizesse parte da rotina da familia principalmente de Júlia q fica o dia todo em casa, ela é uma pessoa tranquila porem gosta de exercitar aos fins de semana, quer encontrar um cachorro ativo e brincalhão para animar o humor da casa e acompanhar a familia onde quer que for.
+
+2. Antônio tem 25 anos e mora sozinho. Formado em Sistemas da Informacão e tem um trabalho de home-officie. Como passa a maior parte do tempo em casa e nao gosta muito de sair de casa, as vezes se sente mt solitario e queria um cãozinho para lhe fazer companhia enquanto trabalha de sua casa, ele quer encontrar um cão tranquilo e calmo, de bom humor e bastante companheiro. 
+
+3. José tem 46 anos e trabalha como médico, tem seu próprio consultorio na av. Amazonas em Belo Horizonte, ele mora em uma casa bem grande no bairro Belvedere, ele quer muito um cachorro fiel e protetor, para que ele possa sair para trabalhar e ficar seguro com sua casa, ele tem preferencia que o porte do cachorro seja grande e que o mesmo tenha traços de um cachorro de guarda, para que o mesmo quarde e proteja sua casa.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4. Nos chamamos Quatro Patas, somos uma Ong que resgata animais de ruas, queremos facilitar o método de adoção porem não queremos entregar os cães nas mãos de qualquer um, porem queríamos um jeito de encontrar o melhor dono para os nosso cães, conhecendo seus dados, seu tempo disponivel, onde mora e se realmente terá tempo e responsalibilade com o cãozinho.
+
+5. Somos a Ong Cães Felizes, recentemente doamos um cachorro a uma família e em uma de nossas visitas a casa da pessoa identificamos que o cãozinho havia sofrido maus tratos por falta de recursos, ficamos com o coração partido por termos entregado ele a essa pessoa sem antes conhecer-mos ela antes, queria-mos um jeito de conhecer a pessoa, ter dados sobre ela, algum meio para entrarmos em contato e ter certeza que essa pessoa possuí recursos e tempo para cuidar de um de nossos cães.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
@@ -26,19 +36,13 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                                   |
+|--------------------|------------------------------------|------------------------------------------------------    |
+|Tutor               | Adotar um caõ que combine comigo   | Pois tenho me sentido muito sozinho, preciso de companhia|
+|Ong                 |Tercontato com o tutor e conhece-lho| Possamos ter segurança em entregar um de nossos cães     |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
@@ -48,16 +52,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
+|RF-001| Permitir que o tutor se cadastre no site | ALTA | 
+|RF-002| Permitir que o tutor entre na página específica encontre um cão que combine com sua personalidade | ALTA | 
+|RF-003| Permitir que a Ong se cadastre no site | MÉDIA | 
+|RF-004| Permitir que a Ong cadastre seus cães disponíveis para adoção | ALTA | 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O sistema deve ser responsivo para rodar em desktop e notebooks de várias resoluções | MÉDIA | 
+|RNF-002| O sistema deve ser seguro e quardar os dados dos usarios e sua senhas com segurança | ALTA | 
+|RF-001| Deve cadastrar os tutores e os cães das Ongs instataneamente no banco de dados  |  ALTA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -78,10 +84,10 @@ todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|ID| Restrição                                               |
+|--|---------------------------------------------------------|
+|01| O projeto deverá ser entregue até o final do semestre   |
+|02| Não é recomendado usar o site em seu dispositivel móvel |        |
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
