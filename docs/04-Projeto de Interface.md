@@ -11,6 +11,8 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 Pagina inicial com todas as opções clicaveis na barra de navegação na parte de cima. 
 Possui 2 botões no canto superior esquedo, sendo um de Login e um de Cadastro para os usuarios e Ong's que utilizarão o Site
+
+
 ![Início](img/inicio.png)
 
 ## Páginas de Login
