@@ -16,3 +16,17 @@ Possui 2 botões no canto superior esquedo, sendo um de Login e um de Cadastro p
 ![Início](img/inicio.png)
 
 ## Páginas de Login
+
+Paginas de logins e registro separadas, entre login e registro de Tutores de cães e login e registro de Ong's que realizarão o cadastro dos cães que serão disponibilizados. 
+
+![login](img/login.png)  ![regristro](img/cadastro_tutor.png)
+
+Paginas de login e registro de Ong's 
+
+![login](img/login_ong.png)  ![regristro](img/cadastro_ong.png)
+
+## Página de Acompanhamento 
+
+Depois de escolher o cão o tutor sera direcionado para escolher o seu cão e finalizar sua adoção 
+
+![acap](img/acompanhamento.png)
