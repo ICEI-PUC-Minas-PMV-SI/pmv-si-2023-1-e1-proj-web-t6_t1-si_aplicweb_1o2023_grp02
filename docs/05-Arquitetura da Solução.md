@@ -26,6 +26,6 @@ Tecnologias utilizadas foram:
 
 ## Hospedagem
 
-A hospedagem foi feita atraves de um servidor local utilizando o app xampp para a criação do mesmo, nesse servidor foi feito o lançamento do site.
+A hospedagem foi feita atraves de um servidor local utilizando o app xampp para a criação do mesmo, nesse servidor local foi feito o lançamento do site.
 
 
