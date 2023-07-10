@@ -1,28 +1,25 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10929640&assignment_repo_type=AssignmentRepo)
 # TÍTULO DO PROJETO
 
-`CURSO`
+`CURSO` Sistemas de Informação
 
-`DISCIPLINA`
+`DISCIPLINA` Projeto de Aplicação Web
 
-`SEMESTRE`
+`SEMESTRE` 1 Semestre
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Natan Alexandre
+* Gabriel Azevedo
+* Leandro Henrique
+
 
 ## Orientador
 
-* Nome completo do professor 1
-
+* Nesley Daher
 ## Instruções de utilização
-
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
 
 # Documentação
 
@@ -42,12 +39,5 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* server local xampp
 
-# Armazenamento do Código-Fonte
-
-* <a href="src/README.md">Código Fonte</a>
-
-# Armazenamento da Apresentação
-
-* <a href="presentation/README.md">Apresentação da solução</a>
