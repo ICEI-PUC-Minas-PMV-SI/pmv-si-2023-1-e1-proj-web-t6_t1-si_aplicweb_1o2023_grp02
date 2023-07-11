@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Um aplicativo Auxiliador para adoção de Pets
+authors:
+  - family-names: "Azevedo"
+  given-names: "Grabriel Pangrancio"
+  - family-names: "de Castro Silva"
+  given-names: "Natan Alexandre"
+  - family-names: "dos Santos"
+  given-names: "Leandro Henrique" 
+  - name-suffix: "Professor"
+  affiliation: "Puc Minas"
+  family-names: "de Oliveira"
+  given-names: "Nesley Jesus Daher"
+url: https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t6_t1-si_aplicweb_1o2023_grp02/tree/a6d2d4acf1c35739aa66f9f2fb84bd2859adba8d/Codigo%20Site%20Completo
+keywords: 
+  - Adoção
+  - PetLove
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t6_t1-si_aplicweb_1o2023_grp02
+license: CC-BY-4.0
+version: 1.0.0
+data-relased: 2023-07-11
